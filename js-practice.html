@@ -36,6 +36,40 @@
     // Strings on my own
     let greeting = "My name is " + name;
     console.log(greeting)
+       
+    // Functions
+    console.log("Using functions:");
+
+    // function to make square numbers
+    function makeSquare(theNumb) {
+      let squared = Math.pow(theNumb, 2);
+      return squared;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    let try02 = makeSquare(4);
+    console.log(try02);
+
+    let try03 = makeSquare(8);
+    console.log(try03);
+
+    // function to concatenate a full name
+    function makeName(firstName, middleName, lastName) {
+      let fullName = firstName + " " + middleName + " " + lastName;
+      return fullName;
+    }
+
+    let nameOne = makeName('Robert', '"Beto"', 'O\'Rourke');
+    console.log(nameOne);
+
+    let nameTwo = makeName('Susie', 'Jean', 'Smith');
+    console.log(nameTwo);
+
+    let nameThree = makeName('Harry', 'James', 'Potter');
+    console.log(nameThree);
+
   </script>
 </body>
 </html>
